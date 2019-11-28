@@ -1,153 +1,224 @@
-#Homem de Ferro
+# Homem de Ferro
 
 ![GitHub Logo](/img1.bmp)
 Format: ![Alt Text](url)
 
-First Header | Second Header
+<br /><br />
+Erika Burei Alves<br />
+Guilherme Aristides Marcos<br />
+Willian Becker de Souza<br /><br /><br />
+
+Trabalho de Representação de Conhecimento em Lógica de Predicados.<br />
+Disciplina: Introdução a Lógica para a Computação (CSD20).<br />
+Professor: Adolfo Gustavo Serra Seca Neto<br />
+(DAINF - UTFPR Curitiba).<br /><br /><br />
+
+## 1.  Tema, Descrição do Tema e Integrantes da Equipe
+
+<br />
+O trabalho foi produzido pelos discentes Erika Burei Alves, Guilherme Aristides Marcos e Willian Becker de Souza a respeito dos três dos filmes produzidos pela Marvel que retratam como foco a história de Tony Stark, o Homem de Ferro. Logo, o trabalho tem como objetivo abordar características dos personagens e do filme em si, observando-as e analisando-as no quesito da Lógica de Predicados.
+
+<br />
+
+## 2.  Frases e Fórmulas
+
+### 2.1 Propriedades de “objetos”
+<br />
+
+Frase | Monge de Ferro é um vilão.
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Fórmula | Vilão (“Monge de Ferro”)
+Definições de predicados/funções | Vilão (X): X é vilão.
 
+<br />
 
-fsdfs<br />fwfwef
+Frase | Tony é um gênio.
+------------ | -------------
+Fórmula | Gênio (“Tony”)
+Definições de predicados/funções | Gênio (X): X é um gênio.
 
+<br />
 
-Frases e Fórmulas:
+Frase | Homem de Ferro é um herói.
+------------ | -------------
+Fórmula | Herói (“Homem de Ferro”)
+Definições de predicados/funções | Herói (X): X é herói.
 
-->Propriedades de “objetos”
+<br />
+<br />
 
--Frase: Monge de Ferro é um vilão.
+### 2.2 Relações entre “objetos”
+<br />
 
--Fórmula: Vilão (“Monge de Ferro”)
+Frase | Monge de Ferro e Homem de Ferro são inimigos.
+------------ | -------------
+Fórmula | Inimigos (“Monge de Ferro”, “Homem de Ferro”)
+Definições de predicados/funções | Inimigos (X, Y): X e Y são inimigos.
 
-- Definições de predicados/funções: Vilão (X): X é vilão.
+<br />
 
--Frase: Homem de Ferro é um herói.
+Frase | Pepper é namorada do Homem de Ferro.
+------------ | -------------
+Fórmula | Namora (X, Y): X e Y namoram
+Definições de predicados/funções | Namora (“Pepper”, “Homem de Ferro”).
 
--Fórmula: Herói (“Homem de Ferro”)
+<br />
 
-- Definições de predicados/funções: Herói (X): X é herói.
+Frase | Máquina de Combate e Homem de Ferro são amigos.
+------------ | -------------
+Fórmula | Amigos (“Máquina de Combate”, “Homem de Ferro”)
+Definições de predicados/funções | Amigos (X, Y): X e Y são amigos.
 
--Frase: Tony é um gênio.
+<br />
+<br />
 
--Fórmula: Gênio (“Tony”)
+### 2.3 Negações
+<br />
 
-- Definições de predicados/funções: Gênio (X): X é um gênio.
+Frase | Rhodes não é um gênio.
+------------ | -------------
+Fórmula |  ¬Gênio (“Rhodes”)
+Definições de predicados/funções |
 
-->Relações entre “objetos”
+<br />
 
--Frase: Monge de Ferro e Homem de Ferro são inimigos.
+Frase | Monge de Ferro e Homem de Ferro não são amigos.
+------------ | -------------
+Fórmula | ¬Amigos (“Monge de Ferro”, Homem de Ferro”)
+Definições de predicados/funções |
 
--Fórmula: Inimigos (“Monge de Ferro”, “Homem de Ferro”)
+<br />
+<br />
 
-- Definições de predicados/funções: Inimigos (X, Y): X e Y são inimigos.
+### 2.4 Conjunções
+<br />
 
--Frase: Pepper é namorada do Homem de Ferro.
+Frase | Tony é um gênio e construiu uma armadura.
+------------ | -------------
+Fórmula |  Gênio (“Tony”) Λ Construiu (“Tony”, “Armadura”)
+Definições de predicados/funções | Construiu (X, Y): X construiu Y.
 
--Fórmula: Namora (X, Y): X e Y namoram
+<br />
 
-- Definições de predicados/funções: Namora (“Pepper”, “Homem de Ferro”).
+Frase | Pepper não é uma heroína e conhece Homem de Ferro.
+------------ | -------------
+Fórmula | ¬Herói (“Pepper”) Λ Conhece (“Pepper”, “Homem de Ferro”)
+Definições de predicados/funções | Conhece (X, Y): X conhece Y
 
--Frase: Máquina de Combate e Homem de Ferro são amigos.
+<br />
+<br />
 
--Fórmulas: Amigos (“Máquina de Combate”, “Homem de Ferro”)
+### 2.5 Disjunções
+<br />
 
-- Definições de predicados/funções: Amigos (X, Y): X e Y são amigos.
+Frase | Tony é mais novo ou mais velho que Pepper.
+------------ | -------------
+Fórmula | Idade (“Tony”) < Idade (“Pepper”) ∨ Idade (“Tony”) > Idade (“Pepper”)
+Definições de predicados/funções | Idade (X): Retorna idade de X
 
-->Negações
+<br />
 
--Frase: Rhodes não é um gênio.
+Frase | Homem de Ferro é mais poderoso do que o Monge de Ferro ou é mais poderoso que o Máquina de combate.
+------------ | -------------
+Fórmula | Poder (“Homem de Ferro”) > Poder (“Monge de Ferro”) ∨ Poder (“Homem de Ferro”) > Poder (“Máquina de Combate”)
+Definições de predicados/funções | Poder (X): Retorna a nível de poder de X.
 
--Fórmula: ¬Gênio (“Rhodes”)
+<br />
+<br />
 
--Frase: Monge de Ferro e Homem de Ferro não são amigos.
+### 2.6 Implicações
+<br />
 
--Fórmula: ¬Amigos (“Monge de Ferro”, Homem de Ferro”)
+Frase | Se o Tony Stark é um herói, então Tony não é o vilão.
+------------ | -------------
+Fórmula |  Herói (“Tony”) → ¬Vilão (“Tony”)
+Definições de predicados/funções |
 
-->Conjunções
+<br />
 
--Frase: Tony é um gênio e construiu uma armadura.
+Frase | Se o Homem de Ferro vencer o Monge de Ferro, então o Monge de Ferro perde.
+------------ | -------------
+Fórmula | Vence (“Homem de Ferro”) → ¬Vence (“Monge de Ferro”)
+Definições de predicados/funções | Vence (X): X vence a batalha.
 
--Fórmula: Gênio (“Tony”) Λ Construiu (“Tony”, “Armadura”)
+<br />
+<br />
 
-- Definições de predicados/funções: Construiu (X, Y): X construiu Y.
+### 2.7 Generalizações Universais
 
--Frase: Pepper não é uma heroína e conhece Homem de Ferro.
+<br />
 
--Fórmula: ¬Herói (“Pepper”) Λ Conhece (“Pepper”, “Homem de Ferro”)
+Frase | Todo herói salva e ajuda alguém.
+------------ | -------------
+Fórmula |  ∃y Ɐx ((Herói (x) → Salva (x, y) ) Λ (Ajuda (x, y))
+Definições de predicados/funções | Salva (X, Y): X salva Y.
 
-- Definições de predicados/funções: Conhece (X, Y): X conhece Y.
+<br />
 
-->Disjunções
+Frase | Todas as armaduras construidas por tony stark são muito tecnologicas e possuem armas.
+------------ | -------------
+Fórmula | Ɐx(Construiu (“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas"))
+Definições de predicados/funções | Tecnologica(x): x é muito tecnologica <br /> Possui(X, Y): x possui y
 
--Frase: Tony é mais novo ou mais velho que Pepper.
+<br />
 
--Fórmula: Idade (“Tony”) < Idade (“Pepper”) ∨ Idade (“Tony”) > Idade (“Pepper”)
+Frase | Todas as armas do homem de ferro são mais poderosas do que armas comuns.
+------------ | -------------
+Fórmula | Ɐx((Arma(x, "Homem de Ferro")->(poder(x)>poder(z)))
+Definições de predicados/funções | Arma(x, y): x é arma de y
 
--Definições de predicados/funções: Idade (X): Retorna idade de X.
+<br />
 
--Frase: Homem de Ferro é mais poderoso do que o Monge de Ferro ou é mais poderoso que o Máquina de combate.
+Frase | Todas as armaduras construidas por tony stark são muito tecnologicas e possuem armas.
+------------ | -------------
+Fórmula | Ɐx(Construiu (“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas"))
+Definições de predicados/funções | Tecnologica(x): x é muito tecnologica <br /> Possui(X, Y): x possui y
 
--Fórmula: Poder (“Homem de Ferro”) > Poder (“Monge de Ferro”) ∨ Poder (“Homem de Ferro”) > Poder (“Máquina de Combate”)
+<br />
+<br />
 
-- Definições de predicados/funções: Poder (X): Retorna a nível de poder de X.
+### 2.8 Generalizações Existenciais
 
-->Implicações
+<br />
 
--Frase: Se o Tony Stark é um herói, então Tony não é o vilão.
+Frase | Há pelo menos alguém que foi derrotado pelo Homem de Ferro e isto em menos de 30 segundos.
+------------ | -------------
+Fórmula |  ∃X (Derrotado (X) = Homem de Ferro) Λ TempoDerrota (X) < 30
+Definições de predicados/funções | Derrotado (X): Retorna quem derrotou X.<br /> Tempo Derrota (X): Retorna em quantos segundos X foi derrotado.
 
--Fórmula: Herói (“Tony”) → ¬Vilão (“Tony”)
+<br />
 
-- Definições de predicados/funções:
+Frase | Há pelo menos alguém que não é amigo do Homem de Ferro e conhece o Homem de Ferro.
+------------ | -------------
+Fórmula | ∃X (¬Amigo (“Homem de Ferro”, X) Λ Conhece (X, “Homem de Ferro”)
+Definições de predicados/funções |
 
--Frase: Se o Homem de Ferro vencer o Monge de Ferro, então o Monge de Ferro perde.
+<br />
 
--Fórmula: Vence (“Homem de Ferro”) → ¬Vence (“Monge de Ferro”)
+Frase | Há pelo menos alguém que batalhou ou ajudou o Homem de Ferro e é menos poderoso que ele.
+------------ | -------------
+Fórmula | ∃X (Batalhou (X, “Homem de Ferro”) ∨ Ajudou (X, “Homem de Ferro”) Λ Poder (X) < Poder (“Homem de Ferro”)
+Definições de predicados/funções | Batalhou (X, Y): X batalhou com Y.<br /> Ajudou (X, Y): X ajudou Y.
 
-- Definições de predicados/funções: Vence (X): X vence a batalha.
+<br />
 
-->Generalizações Universais
+## 3. Assinatura
 
--Frase: Todo herói salva e ajuda alguém.
+∑=[R1, R2, R3, C, F1, F2, V]
+R1={Heroi, Genio, Violinista, Ex-militar,Investiga, Artista, Criminoso, Cometer-crime, Caso, Resolvido}
+R2={Namora, Conhece}
+R3={Proprietario-Diretor}
+C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Stark Industries”,  “Molly Hooper”,  “Mori-arty”}
+F1={Idade, Poder, TempoArmadura, Preço}
+F2={Propriedade}
+V={x, y, z}
 
--Fórmula: ∃Y Ɐ X ((Herói (X) → Salva (X, Y) ) Λ (Ajuda (X, Y))
+<br />
 
-- Definições de predicados/funções: Salva (X, Y): X salva Y.
+## 4. Modelos
+### 4.1 Exemplo de modelo que satisfaz todas as fórmulas(M1)
 
-***Pessoa (Y): Y é uma pessoa.
 
--Frase:
 
--Fórmula:
-
-- Definições de predicados/funções:
-
--Frase:
-
--Fórmula:
-
-- Definições de predicados/funções:
-
-->Generalizações Existenciais
-
--Frase: Há pelo menos alguém que foi derrotado pelo Homem de Ferro e isto em menos de 30 segundos.
-
--Fórmula: ∃X (Derrotado (X) = Homem de Ferro) Λ TempoDerrota (X) < 30
-
-- Definições de predicados/funções: Derrotado (X): Retorna quem derrotou X.
-
-Tempo Derrota (X): Retorna em quantos segundos X foi derrotado.
-
--Frase: Há pelo menos alguém que não é amigo do Homem de Ferro e conhece o Homem de Ferro.
-
--Fórmula: ∃X (¬Amigo (“Homem de Ferro”, X) Λ Conhece (X, “Homem de Ferro”)
-
-- Definições de predicados/funções:
-
--Frase: Há pelo menos alguém que batalhou ou ajudou o Homem de Ferro e é menos poderoso que ele.
-
--Fórmula: ∃X (Batalhou (X, “Homem de Ferro”) ∨ Ajudou (X, “Homem de Ferro”) Λ Poder (X) < Poder (“Homem de Ferro”)
-
-- Definições de predicados/funções: Batalhou (X, Y): X batalhou com Y.
-
-Ajudou (X, Y): X ajudou Y.
+<br />
+### 4.2 Exemplo de modelo que não satisfaz alguma das fórmulas(M2)
