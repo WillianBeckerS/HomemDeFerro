@@ -60,8 +60,8 @@ Definições de predicados/funções | Inimigos (X, Y): X e Y são inimigos.
 
 Frase | Pepper é namorada do Homem de Ferro.
 ------------ | -------------
-Fórmula | Namora (X, Y): X e Y namoram
-Definições de predicados/funções | Namora (“Pepper”, “Homem de Ferro”).
+Fórmula | Namora (“Pepper”, “Homem de Ferro”).
+Definições de predicados/funções | Namora (X, Y): X e Y namoram.
 
 <br />
 
@@ -225,43 +225,114 @@ V={x, y, z}
 ## 4. Modelos
 ### 4.1 Exemplo de modelo que satisfaz todas as fórmulas(M1)
 
+<br />
+
 1 . Universo de Valores Concretos
 
 A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
-2. Constantes
-“Homem de Ferro”M1 = vc1
-29M1 = vc2
-“Pepper”M1 = vc3
-31M1 = vc4
-“Tony Stark”M1 = vc5
-8000M1 = vc6
-“Maquina de Combate”M1 = vc7
-“Monge de Ferro”M1 = vc8
-“Armadura”M1 = vc9
-“Rhodes”M1 = vc10
-“Armas”M1 = vc11
+<br />
+
+2. Constantes <br />
+"Homem de Ferro"<sup>M1<sup /> = vc1 <br />
+"29"<sup>M1<sup /> = vc2 <br />
+"Pepper"<sup>M1<sup /> = vc3 <br />
+"31"<sup>M1<sup /> = vc4 <br />
+"Tony Stark"<sup>M1<sup /> = vc5 <br />
+"8000"<sup>M1<sup /> = vc6 <br />
+"Maquina de Combate"<sup>M1<sup /> = vc7 <br />
+"Monge de Ferro"<sup>M1<sup /> = vc8 <br />
+"Armadura"<sup>M1<sup /> = vc9 <br />
+"Rhodes"<sup>M1<sup /> = vc10 <br />
+"Armas"<sup>M1<sup /> = vc11 <br />
 
 <br />
 
-3. Funções
-IdadeM1 (vc5) = vc2
-IdadeM1 (vc3) = vc1
-IdadeM1 (...) = vc1
-PoderM1 (vc1) = vc6 
-PoderM1 (vc8) = vc2
-PoderM1 (vc7) = vc4
-PoderM1 (...) = vc2
-PoderM1(...) = vc2
-PreçoM1 (vc9) = vc6
+3. Predicados <br />
+Herói<sup>M1<sup />(vc5) = vc2 <br />
+Gênio<sup>M1<sup /> (vc3) = vc1 <br />
+Vilão<sup>M1<sup /> (...) = vc1 <br />
+Vence<sup>M1<sup /> (vc1) = vc6 <br />
+Tecnológica<sup>M1<sup /> (vc8) = vc2 <br />
+CarroPopular<sup>M1<sup /> (vc7) = vc4 <br />
+Armadura<sup>M1<sup /> (...) = vc2 <br />
 
-PreçoM1 (...) = vc2    carropop
+<br />
 
-TempoDerrotaM1 (vc) = vc1
-TempoDerrotaM1 (vc2) = vc6
-GostarM1 (vc6) = vc2
-GostarM1 (...) = vc12
-PropriedadeM1 (vc1, vc2) = vc5
-PropriedadeM1 (...,...) = v
+4. Funções <br />
+Idade<sup>M1<sup /> (vc5) = vc2 <br />
+Idade<sup>M1<sup /> (vc3) = vc1 <br />
+Idade<sup>M1<sup /> (...) = vc1 <br />
+Poder<sup>M1<sup /> (vc1) = vc6 <br />
+Poder<sup>M1<sup /> (vc8) = vc2 <br />
+Poder<sup>M1<sup /> (vc7) = vc4 <br />
+Poder<sup>M1<sup /> (...) = vc2 <br />
+Poder<sup>M1<sup />(...) = vc2 <br />
+Preço<sup>M1<sup /> (vc9) = vc6 <br />
+Preço<sup>M1<sup /> (...) = vc2 <br />
+TempoDerrota<sup>M1<sup /> (vc) = vc1 <br />
+TempoDerrota<sup>M1<sup /> (vc2) = vc6 <br />
+Gostar<sup>M1<sup /> (vc6) = vc2 <br />
+Gostar<sup>M1<sup /> (...) = vc12 <br />
+Propriedade<sup>M1<sup /> (vc1, vc2) = vc5 <br />
+Propriedade<sup>M1<sup /> (...,...) = v <br />
+
+<br />
+
+<br />
 
 ### 4.2 Exemplo de modelo que não satisfaz alguma das fórmulas(M2)
+
+<br />
+
+1 . Universo de Valores Concretos
+
+A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
+
+<br />
+
+2. Constantes <br />
+"Homem de Ferro"<sup>M1<sup /> = vc1 <br />
+"29"<sup>M1<sup /> = vc2 <br />
+"Pepper"<sup>M1<sup /> = vc3 <br />
+"31"<sup>M1<sup /> = vc4 <br />
+"Tony Stark"<sup>M1<sup /> = vc5 <br />
+"8000"<sup>M1<sup /> = vc6 <br />
+"Maquina de Combate"<sup>M1<sup /> = vc7 <br />
+"Monge de Ferro"<sup>M1<sup /> = vc8 <br />
+"Armadura"<sup>M1<sup /> = vc9 <br />
+"Rhodes"<sup>M1<sup /> = vc10 <br />
+"Armas"<sup>M1<sup /> = vc11 <br />
+
+<br />
+
+3. Predicados <br />
+Herói<sup>M1<sup />(vc5) = vc2 <br />
+Gênio<sup>M1<sup /> (vc3) = vc1 <br />
+Vilão<sup>M1<sup /> (...) = vc1 <br />
+Vence<sup>M1<sup /> (vc1) = vc6 <br />
+Tecnológica<sup>M1<sup /> (vc8) = vc2 <br />
+CarroPopular<sup>M1<sup /> (vc7) = vc4 <br />
+Armadura<sup>M1<sup /> (...) = vc2 <br />
+
+<br />
+
+4. Funções <br />
+Idade<sup>M1<sup /> (vc5) = vc2 <br />
+Idade<sup>M1<sup /> (vc3) = vc1 <br />
+Idade<sup>M1<sup /> (...) = vc1 <br />
+Poder<sup>M1<sup /> (vc1) = vc6 <br />
+Poder<sup>M1<sup /> (vc8) = vc2 <br />
+Poder<sup>M1<sup /> (vc7) = vc4 <br />
+Poder<sup>M1<sup /> (...) = vc2 <br />
+Poder<sup>M1<sup />(...) = vc2 <br />
+Preço<sup>M1<sup /> (vc9) = vc6 <br />
+Preço<sup>M1<sup /> (...) = vc2 <br />
+TempoDerrota<sup>M1<sup /> (vc) = vc1 <br />
+TempoDerrota<sup>M1<sup /> (vc2) = vc6 <br />
+Gostar<sup>M1<sup /> (vc6) = vc2 <br />
+Gostar<sup>M1<sup /> (...) = vc12 <br />
+Propriedade<sup>M1<sup /> (vc1, vc2) = vc5 <br />
+Propriedade<sup>M1<sup /> (...,...) = v <br />
+
+<br />
