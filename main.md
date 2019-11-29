@@ -236,7 +236,7 @@ A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 <br />
 
 2. Constantes <br />
-"Homem de Ferro" ^ M1 ^ = vc1 <br />
+"Homem de Ferro" <sup> <sup> M1 <sup /> <sup /> = vc1 <br />
 "29" <sup> M1 <sup /> = vc2 <br />
 "Pepper" <sup> M1 <sup /> = vc3 <br />
 "31" <sup> M1 <sup/> = vc4 <br />
