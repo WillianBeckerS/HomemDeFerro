@@ -165,7 +165,7 @@ Definições de predicados/funções | Tecnologica(x): x é muito tecnologica <b
 
 Frase | Todas as armas do homem de ferro são mais poderosas do que armas comuns.
 ------------ | -------------
-Fórmula | Ɐx((Arma(x, "Homem de Ferro")->(poder(x)>poder(z)))
+Fórmula | ⱯxⱯz((Arma(x, "Homem de Ferro")->(poder(x)>poder(z)))
 Definições de predicados/funções | Arma(x, y): x é arma de y
 
 <br />
@@ -229,7 +229,39 @@ V={x, y, z}
 
 A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
+2. Constantes
+“Homem de Ferro”M1 = vc1
+29M1 = vc2
+“Pepper”M1 = vc3
+31M1 = vc4
+“Tony Stark”M1 = vc5
+8000M1 = vc6
+“Maquina de Combate”M1 = vc7
+“Monge de Ferro”M1 = vc8
+“Armadura”M1 = vc9
+“Rhodes”M1 = vc10
+“Armas”M1 = vc11
 
 <br />
+
+3. Funções
+IdadeM1 (vc5) = vc2
+IdadeM1 (vc3) = vc1
+IdadeM1 (...) = vc1
+PoderM1 (vc1) = vc6 
+PoderM1 (vc8) = vc2
+PoderM1 (vc7) = vc4
+PoderM1 (...) = vc2
+PoderM1(...) = vc2
+PreçoM1 (vc9) = vc6
+
+PreçoM1 (...) = vc2    carropop
+
+TempoDerrotaM1 (vc) = vc1
+TempoDerrotaM1 (vc2) = vc6
+GostarM1 (vc6) = vc2
+GostarM1 (...) = vc12
+PropriedadeM1 (vc1, vc2) = vc5
+PropriedadeM1 (...,...) = v
 
 ### 4.2 Exemplo de modelo que não satisfaz alguma das fórmulas(M2)
