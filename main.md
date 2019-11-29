@@ -8,6 +8,7 @@ Erika Burei Alves<br />
 Guilherme Aristides Marcos<br />
 Willian Becker de Souza<br /><br /><br />
 
+
 Trabalho de Representação de Conhecimento em Lógica de Predicados.<br />
 Disciplina: Introdução a Lógica para a Computação (CSD20).<br />
 Professor: Adolfo Gustavo Serra Seca Neto<br />
@@ -169,28 +170,36 @@ Definições de predicados/funções | Arma(x, y): x é arma de y
 
 <br />
 
-Frase | Todas as armaduras construidas por tony stark são muito tecnologicas e possuem armas.
+Frase | Todas as armaduras construidas por Tony Stark são muito tecnologicas e possuem armas.
 ------------ | -------------
 Fórmula | Ɐx(Construiu (“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas"))
 Definições de predicados/funções | Tecnologica(x): x é muito tecnologica <br /> Possui(X, Y): x possui y
 
 <br />
-<br />
 
+Frase | Todos as armaduras do homem de ferro são mais caras do que qualquer carro popular
+------------ | -------------
+Fórmula | ⱯyⱯx(Armadura(x)→(Preço(Armadura(x)) > Preço(CarroPopular(y)))
+
+Definições de predicados/funções | Preço(X): retorna o preço de X <br /> CarroPopular(X): X é um carro popular <br /> Armadura(X): X é uma armadura do homem de ferro
+
+<br />
+<br />
+	
 ### 2.8 Generalizações Existenciais
 
 <br />
 
 Frase | Há pelo menos alguém que foi derrotado pelo Homem de Ferro e isto em menos de 30 segundos.
 ------------ | -------------
-Fórmula |  ∃X (Derrotado (X) = Homem de Ferro) Λ TempoDerrota (X) < 30
-Definições de predicados/funções | Derrotado (X): Retorna quem derrotou X.<br /> Tempo Derrota (X): Retorna em quantos segundos X foi derrotado.
+Fórmula |  ∃x((Derrotado(X) = "Homem de Ferro") Λ TempoDerrota(X) < 30)
+Definições de predicados/funções | Derrotado (X): Retorna quem derrotou X.<br /> TempoDerrota(X): Retorna em quantos segundos X foi derrotado.
 
 <br />
 
 Frase | Há pelo menos alguém que não é amigo do Homem de Ferro e conhece o Homem de Ferro.
 ------------ | -------------
-Fórmula | ∃X (¬Amigo (“Homem de Ferro”, X) Λ Conhece (X, “Homem de Ferro”)
+Fórmula | ∃X (¬Amigo(“Homem de Ferro”, X) Λ Conhece(X, “Homem de Ferro”))
 Definições de predicados/funções |
 
 <br />
@@ -221,4 +230,5 @@ V={x, y, z}
 
 
 <br />
+
 ### 4.2 Exemplo de modelo que não satisfaz alguma das fórmulas(M2)
