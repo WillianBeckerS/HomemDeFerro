@@ -76,10 +76,10 @@ Definições de predicados/funções | Amigos (X, Y): X e Y são amigos.
 ### 2.3 Negações
 <br />
 
-Frase | Rhodes não é um gênio.
+Frase | Rhodes não é um gênio e não é mais inteligente que Tony Stark.
 ------------ | -------------
-Fórmula |  ¬Gênio (“Rhodes”)
-Definições de predicados/funções |
+Fórmula |  ¬Gênio(“Rhodes”)Λ¬(Inteligente("Tony Stark", "Rhodes")="Rhodes")
+Definições de predicados/funções | Inteligente(X, Y): retorna o mais inteligente entre x e y.
 
 <br />
 
@@ -152,7 +152,7 @@ Definições de predicados/funções | Vence (X): X vence a batalha.
 Frase | Todo herói salva e ajuda alguém.
 ------------ | -------------
 Fórmula |  ∃y Ɐx ((Herói (x) → Salva (x, y) ) Λ (Ajuda (x, y))
-Definições de predicados/funções | Salva (X, Y): X salva Y.
+Definições de predicados/funções | Salva (X, Y): X salva Y. <br /> Ajuda(X, Y): X ajuda Y.
 
 <br />
 
@@ -180,7 +180,6 @@ Definições de predicados/funções | Tecnologica(x): x é muito tecnologica <b
 Frase | Todos as armaduras do homem de ferro são mais caras do que qualquer carro popular
 ------------ | -------------
 Fórmula | ⱯyⱯx(Armadura(x)→(Preço(Armadura(x)) > Preço(CarroPopular(y)))
-
 Definições de predicados/funções | Preço(X): retorna o preço de X <br /> CarroPopular(X): X é um carro popular <br /> Armadura(X): X é uma armadura do homem de ferro
 
 <br />
@@ -206,20 +205,19 @@ Definições de predicados/funções |
 
 Frase | Há pelo menos alguém que batalhou ou ajudou o Homem de Ferro e é menos poderoso que ele.
 ------------ | -------------
-Fórmula | ∃X (Batalhou (X, “Homem de Ferro”) ∨ Ajudou (X, “Homem de Ferro”) Λ Poder (X) < Poder (“Homem de Ferro”)
-Definições de predicados/funções | Batalhou (X, Y): X batalhou com Y.<br /> Ajudou (X, Y): X ajudou Y.
+Fórmula | ∃X (Batalhou (X, “Homem de Ferro”) ∨ Ajuda (X, “Homem de Ferro”) Λ Poder (X) < Poder (“Homem de Ferro”)
+Definições de predicados/funções | Batalhou (X, Y): X batalhou com Y.
 
 <br />
 
 ## 3. Assinatura
 
 ∑=[R1, R2, R3, C, F1, F2, V]
-R1={Heroi, Genio, Violinista, Ex-militar,Investiga, Artista, Criminoso, Cometer-crime, Caso, Resolvido}
-R2={Namora, Conhece}
-R3={Proprietario-Diretor}
-C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Stark Industries”,  “Molly Hooper”,  “Mori-arty”}
-F1={Idade, Poder, TempoArmadura, Preço}
-F2={Propriedade}
+R1={Herói, Gênio, Vilão, Vence, Tecnológica, CarroPopular, Armadura}
+R2={Inimigos, Namora, Amigos, Conhece, Construiu, Salva, Ajuda, Possui, Batalhou, Arma}
+C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Rhodes”,  “Armadura”,  “Armas”}
+F1={Idade, Poder, Preço, TempoDerrota, Derrotado}
+F2={Inteligente}
 V={x, y, z}
 
 <br />
@@ -227,6 +225,9 @@ V={x, y, z}
 ## 4. Modelos
 ### 4.1 Exemplo de modelo que satisfaz todas as fórmulas(M1)
 
+1 . Universo de Valores Concretos
+
+A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 
 <br />
