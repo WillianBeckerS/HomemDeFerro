@@ -212,13 +212,15 @@ Definições de predicados/funções | Batalhou (X, Y): X batalhou com Y.
 
 ## 3. Assinatura
 
-∑=[R1, R2, R3, C, F1, F2, V]
-R1={Herói, Gênio, Vilão, Vence, Tecnológica, CarroPopular, Armadura}
-R2={Inimigos, Namora, Amigos, Conhece, Construiu, Salva, Ajuda, Possui, Batalhou, Arma}
-C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Rhodes”,  “Armadura”,  “Armas”}
-F1={Idade, Poder, Preço, TempoDerrota, Derrotado}
-F2={Inteligente}
-V={x, y, z}
+<br />
+
+∑=[R1, R2, R3, C, F1, F2, V] <br />
+R1={Herói, Gênio, Vilão, Vence, Tecnológica, CarroPopular, Armadura} <br />
+R2={Inimigos, Namora, Amigos, Conhece, Construiu, Salva, Ajuda, Possui, Batalhou, Arma} <br />
+C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Rhodes”,  “Armadura”,  “Armas”} <br />
+F1={Idade, Poder, Preço, TempoDerrota, Derrotado} <br />
+F2={Inteligente} <br />
+V={x, y, z} <br />
 
 <br />
 
