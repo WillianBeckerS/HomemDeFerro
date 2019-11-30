@@ -244,9 +244,6 @@ A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 <br />
 
 3. Predicados <br />
-<br />
-
-4. Predicados <br />
 
 Herói<sup>M1</sup> = {vc1} <br />
 Herói<sup>M1</sup> = {vc5} //duvida <br />
