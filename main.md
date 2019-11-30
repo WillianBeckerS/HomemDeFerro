@@ -164,13 +164,6 @@ Definições de predicados/funções | Arma(X, Y): X é arma de Y.
 
 <br />
 
-Frase | Todas as armaduras construidas por Tony Stark são muito tecnologicas e possuem armas.
------------- | -------------
-Fórmula | Ɐx(Construiu (“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas"))
-Definições de predicados/funções | Tecnologica(X): X é muito tecnologica.
-
-<br />
-
 Frase | Todos as armaduras do Homem de Ferro são mais caras do que qualquer carro popular.
 ------------ | -------------
 Fórmula | ⱯyⱯx(Armadura(x) → (Preço(Armadura(x) > Preço(CarroPopular(y)))
