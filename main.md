@@ -18,7 +18,7 @@ Professor: Adolfo Gustavo Serra Seca Neto<br />
 
 <br />
 
-O trabalho foi produzido pelos discentes Erika Burei Alves, Guilherme Aristides Marcos e Willian Becker de Souza a respeito dos três dos filmes produzidos pela Marvel que retratam como foco a história de Tony Stark, o Homem de Ferro. Logo, o trabalho tem como objetivo abordar características dos personagens e do filme em si, observando-as e analisando-as no quesito da Lógica de Predicados.
+O trabalho foi produzido pelos discentes Erika Burei Alves, Guilherme Aristides Marcos e Willian Becker de Souza a respeito dos três dos filmes produzidos pela Marvel que retratam a história de Tony Stark, o Homem de Ferro. Logo, o trabalho tem como objetivo abordar características dos personagens e do filme em si, analisando-as na ótica da Lógica de Predicados.
 
 <br />
 
@@ -119,7 +119,7 @@ Definições de predicados/funções | Idade (X): Retorna a idade de X.
 Frase | Homem de Ferro é mais poderoso do que o Monge de Ferro ou é mais poderoso que o Máquina de combate.
 ------------ | -------------
 Fórmula | (Poder(“Homem de Ferro”) > Poder(“Monge de Ferro”)) ∨ (Poder(“Homem de Ferro”) > Poder(“Máquina de Combate”))
-Definições de predicados/funções | Poder(X): Retorna a nível de poder de X.
+Definições de predicados/funções | Poder(X): Retorna o nível de poder de X.
 
 <br />
 
@@ -167,7 +167,7 @@ Definições de predicados/funções | Arma(X, Y): X é arma de Y.
 
 Frase | Todos as armaduras do Homem de Ferro são mais caras do que qualquer carro popular.
 ------------ | -------------
-Fórmula | ⱯyⱯx(Armadura(x) → (Preço(Armadura(x) > Preço(CarroPopular(y)))
+Fórmula | ⱯyⱯx((Armadura(x) Λ CarroPopular(y)) → (Preço(x) > Preço(y))
 Definições de predicados/funções | Preço(X): retorna o preço de X <br /> CarroPopular(X): X é um carro popular <br /> Armadura(X): X é uma armadura do homem de ferro
 
 <br />
@@ -178,7 +178,7 @@ Definições de predicados/funções | Preço(X): retorna o preço de X <br /> C
 
 Frase | Há pelo menos alguém que foi derrotado pelo Homem de Ferro e isto em menos de 30 segundos.
 ------------ | -------------
-Fórmula |  ∃x((Derrotado(X) = "Homem de Ferro") Λ (TempoDerrota(X) < 30))
+Fórmula |  ∃x((Derrotado(x) = "Homem de Ferro") Λ (TempoDerrota(x) < "30"))
 Definições de predicados/funções | Derrotado(X): Retorna quem derrotou X. <br /> TempoDerrota(X): Retorna em quantos segundos X foi derrotado.
 
 <br />
