@@ -241,8 +241,7 @@ A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 3. Predicados <br />
 
-Herói<sup>M1</sup> = {vc1} <br />
-Herói<sup>M1</sup> = {vc5} <br />
+Herói<sup>M1</sup> = {vc1,vc5} <br />
 Gênio<sup>M1</sup> = {vc5} <br />
 Vilão<sup>M1</sup> = {vc8} <br />
 Vence<sup>M1</sup> = {vc1} <br />
@@ -253,12 +252,9 @@ Inimigos<sup>M1</sup> = {(vc1, vc8)} <br />
 Namora<sup>M1</sup> = {(vc3, vc7)} <br />
 Amigos<sup>M1</sup> = {(vc1, vc7)} <br />
 Salva<sup>M1</sup> = {(vc12,vc13)} <br />
-Construiu<sup>M1</sup> = {(vc5, vc9)} <br />
-Construiu<sup>M1</sup> = {(vc12, vc13)} <br />
-Conhece<sup>M1</sup> = {(vc1, vc3)} <br />
-Conhece<sup>M1</sup> = {(vc12, vc1)} <br />
-Ajuda<sup>M1</sup>= {(vc12, vc1)} <br />
-Ajuda<sup>M1</sup>= {(vc12, vc13)} <br />
+Construiu<sup>M1</sup> = {(vc5, vc9),(vc12, vc13)} <br />
+Conhece<sup>M1</sup> = {(vc1, vc3),(vc12, vc1)} <br />
+Ajuda<sup>M1</sup>= {(vc12, vc1), (vc12, vc13)} <br />
 Possui<sup>M1</sup> = {(vc12, vc11)} <br />
 Batalhou<sup>M1</sup> = {(vc12, vc1)} <br />
 Arma<sup>M1</sup> = {(vc12, vc1)} <br />
