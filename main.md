@@ -1,7 +1,6 @@
 # Homem de Ferro
 
 ![GitHub Logo](/img1.bmp)
-Format: ![Alt Text](url)
 
 <br /> <br />
 Erika Burei Alves<br />
