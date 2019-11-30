@@ -28,13 +28,13 @@ O trabalho foi produzido pelos discentes Erika Burei Alves, Guilherme Aristides 
 Frase | Monge de Ferro é um vilão.
 ------------ | -------------
 Fórmula | Vilão(“Monge de Ferro”)
-Definições de predicados/funções | Vilão(X): X é vilão.
+Definições de predicados/funções | Vilão(X): X é um vilão.
 
 <br />
 
 Frase | Tony Stark é um gênio.
 ------------ | -------------
-Fórmula | Gênio(“Tony”)
+Fórmula | Gênio(“Tony Stark”)
 Definições de predicados/funções | Gênio(X): X é um gênio.
 
 <br />
@@ -42,7 +42,7 @@ Definições de predicados/funções | Gênio(X): X é um gênio.
 Frase | Homem de Ferro é um herói.
 ------------ | -------------
 Fórmula | Herói(“Homem de Ferro”)
-Definições de predicados/funções | Herói(X): X é herói.
+Definições de predicados/funções | Herói(X): X é um herói.
 
 <br />
 
@@ -109,7 +109,7 @@ Definições de predicados/funções | Conhece(X, Y): X conhece Y.
 
 Frase | Tony Stark é mais novo ou mais velho que Pepper.
 ------------ | -------------
-Fórmula | Idade(“Tony”) < Idade(“Pepper”) ∨ Idade(“Tony”) > Idade(“Pepper”)
+Fórmula | Idade(“Tony Stark”) < Idade(“Pepper”) ∨ Idade(“Tony Stark”) > Idade(“Pepper”)
 Definições de predicados/funções | Idade (X): Retorna a idade de X.
 
 <br />
@@ -124,14 +124,14 @@ Definições de predicados/funções | Poder(X): Retorna a nível de poder de X.
 ### 2.6 Implicações
 <br />
 
-Frase | Se o Tony Stark é um herói, então Tony não é o vilão.
+Frase | Se o Tony Stark é um herói, então Tony Stark não é o vilão.
 ------------ | -------------
 Fórmula |  Herói(“Tony Stark”) → ¬Vilão(“Tony Stark”)
 Definições de predicados/funções |
 
 <br />
 
-Frase | Se o Homem de Ferro vencer o Monge de Ferro, então o Monge de Ferro perde.
+Frase | Se o Homem de Ferro vencer, então o Monge de Ferro não vence.
 ------------ | -------------
 Fórmula | Vence(“Homem de Ferro”) → ¬Vence(“Monge de Ferro”)
 Definições de predicados/funções | Vence(X): X vence a batalha.
@@ -149,7 +149,7 @@ Definições de predicados/funções | Salva (X, Y): X salva Y. <br /> Ajuda(X, 
 
 <br />
 
-Frase | Todas as armaduras construidas por tony stark são muito tecnologicas e possuem armas.
+Frase | Todas as armaduras construidas por Tony Stark são muito tecnologicas e possuem armas.
 ------------ | -------------
 Fórmula | Ɐx(Construiu(“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas")))
 Definições de predicados/funções | Tecnologica(X): X é muito tecnologica <br /> Possui(X, Y): X possui Y.
@@ -301,67 +301,67 @@ A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 2 . Constantes <br />
 
-"Homem de Ferro"<sup>M1</sup> = vc1 <br />
-"29"<sup>M1</sup> = vc2 <br />
-"Pepper"<sup>M1</sup> = vc3 <br />
-"31"<sup>M1</sup> = vc4 <br />
-"Tony Stark"<sup>M1</sup> = vc5 <br />
-"8000"<sup>M1</sup> = vc6 <br />
-"Maquina de Combate"<sup>M1</sup> = vc7 <br />
-"Monge de Ferro"<sup>M1</sup> = vc8 <br />
-"Armadura"<sup>M1</sup> = vc9 <br />
-"Rhodes"<sup>M1</sup> = vc10 <br />
-"Armas"<sup>M1</sup> = vc11 <br />
-"Armas Comuns"<sup>M1</sup> = vc12 <br />
+"Homem de Ferro"<sup>M2</sup> = vc1 <br />
+"29"<sup>M2</sup> = vc2 <br />
+"Pepper"<sup>M2</sup> = vc3 <br />
+"31"<sup>M2</sup> = vc4 <br />
+"Tony Stark"<sup>M2</sup> = vc5 <br />
+"8000"<sup>M2</sup> = vc6 <br />
+"Maquina de Combate"<sup>M2</sup> = vc7 <br />
+"Monge de Ferro"<sup>M2</sup> = vc8 <br />
+"Armadura"<sup>M2</sup> = vc9 <br />
+"Rhodes"<sup>M2</sup> = vc10 <br />
+"Armas"<sup>M2</sup> = vc11 <br />
+"Armas Comuns"<sup>M2</sup> = vc12 <br />
 
 <br />
 
 3 . Predicados <br />
 
-Herói<sup>M1</sup> = {vc3} <br />
-Gênio<sup>M1</sup> = {vc5} <br />
-Vilão<sup>M1</sup> = {vc8} <br />
-Vence<sup>M1</sup> = {vc1} <br />
-Tecnológica<sup>M1</sup> = {vc9} <br />
-Armadura<sup>M1</sup> = {vc9} <br />
-CarroPopular<sup>M1</sup> = {vc12} <br />
-Inimigos<sup>M1</sup> = {(vc1, vc8)} <br />
-Namora<sup>M1</sup> = {(vc3, vc5)} <br />
-Amigos<sup>M1</sup> = {(vc1, vc7)} <br />
-Salva<sup>M1</sup> = {(vc1,vc3)} <br />
-Construiu<sup>M1</sup> = {(vc5, vc9), (vc5, vc11)} <br />
-Conhece<sup>M1</sup> = {(vc3, vc1), (vc8, vc1)} <br />
-Ajuda<sup>M1</sup>= {(vc1, vc3)} <br />
-Possui<sup>M1</sup> = {(vc9, vc11)} <br />
-Batalhou<sup>M1</sup> = {(vc1, vc8)} <br />
-Arma<sup>M1</sup> = {(vc11, vc1)} <br />
+Herói<sup>M2</sup> = {vc3} <br />
+Gênio<sup>M2</sup> = {vc5} <br />
+Vilão<sup>M2</sup> = {vc8} <br />
+Vence<sup>M2</sup> = {vc1} <br />
+Tecnológica<sup>M2</sup> = {vc9} <br />
+Armadura<sup>M2</sup> = {vc9} <br />
+CarroPopular<sup>M2</sup> = {vc12} <br />
+Inimigos<sup>M2</sup> = {(vc1, vc8)} <br />
+Namora<sup>M2</sup> = {(vc3, vc5)} <br />
+Amigos<sup>M2</sup> = {(vc1, vc7)} <br />
+Salva<sup>M2</sup> = {(vc1,vc3)} <br />
+Construiu<sup>M2</sup> = {(vc5, vc9), (vc5, vc11)} <br />
+Conhece<sup>M2</sup> = {(vc3, vc1), (vc8, vc1)} <br />
+Ajuda<sup>M2</sup>= {(vc1, vc3)} <br />
+Possui<sup>M2</sup> = {(vc9, vc11)} <br />
+Batalhou<sup>M2</sup> = {(vc1, vc8)} <br />
+Arma<sup>M2</sup> = {(vc11, vc1)} <br />
 
 
 <br />
 
 4 . Funções <br />
 
-Idade<sup>M1</sup> = A → A <br />
-Idade<sup>M1</sup> (vc5) = vc2 <br />
-Idade<sup>M1</sup> (vc3) = vc4 <br />
-Idade<sup>M1</sup> (...) = vc4 <br />
-Poder<sup>M1</sup> = A → A <br />
-Poder<sup>M1</sup> (vc1) = vc6 <br />
-Poder<sup>M1</sup> (vc8) = vc2 <br />
-Poder<sup>M1</sup> (vc7) = vc4 <br />
-Poder<sup>M1</sup> (vc12) = vc2 <br />
-Poder<sup>M1</sup> (vc11) = vc6 <br />
-Poder<sup>M1</sup>(...) = vc2 <br />
-Preço<sup>M1</sup> = A → A <br />
-Preço<sup>M1</sup> (vc9) = vc6 <br />
-Preço<sup>M1</sup> (vc) = vc2 <br />
-Preço<sup>M1</sup> (...) = vc2 <br />
-TempoDerrota<sup>M1</sup> = A → A <br />
-TempoDerrota<sup>M1</sup> (vc) = vc2 <br />
-TempoDerrota<sup>M1</sup> (...) = vc6 <br />
-Inteligente<sup>M1</sup> = AxA → A
-Inteligente<sup>M1</sup> (vc5, vc10) = vc5 <br />
-Inteligente<sup>M1</sup> (...,...) = ... <br />
+Idade<sup>M2</sup> = A → A <br />
+Idade<sup>M2</sup> (vc5) = vc4 <br />
+Idade<sup>M2</sup> (vc3) = vc4 <br />
+Idade<sup>M2</sup> (...) = vc4 <br />
+Poder<sup>M2</sup> = A → A <br />
+Poder<sup>M2</sup> (vc1) = vc6 <br />
+Poder<sup>M2</sup> (vc8) = vc2 <br />
+Poder<sup>M2</sup> (vc7) = vc4 <br />
+Poder<sup>M2</sup> (vc12) = vc2 <br />
+Poder<sup>M2</sup> (vc11) = vc6 <br />
+Poder<sup>M2</sup>(...) = vc2 <br />
+Preço<sup>M2</sup> = A → A <br />
+Preço<sup>M2</sup> (vc9) = vc6 <br />
+Preço<sup>M2</sup> (vc) = vc2 <br />
+Preço<sup>M2</sup> (...) = vc2 <br />
+TempoDerrota<sup>M2</sup> = A → A <br />
+TempoDerrota<sup>M2</sup> (vc) = vc2 <br />
+TempoDerrota<sup>M2</sup> (...) = vc6 <br />
+Inteligente<sup>M2</sup> = AxA → A
+Inteligente<sup>M2</sup> (vc5, vc10) = vc5 <br />
+Inteligente<sup>M2</sup> (...,...) = ... <br />
 
 <br />
 
