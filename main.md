@@ -215,13 +215,13 @@ V={x, y, z} <br />
 
 <br />
 
-1. Universo de Valores Concretos <br />
+1 . Universo de Valores Concretos <br />
 
 A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 <br />
 
-2. Constantes <br />
+2 . Constantes <br />
 
 "Homem de Ferro"<sup>M1</sup> = vc1 <br />
 "29"<sup>M1</sup> = vc2 <br />
@@ -238,7 +238,7 @@ A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 <br />
 
-3. Predicados <br />
+3 . Predicados <br />
 
 Herói<sup>M1</sup> = {vc1, vc5} <br />
 Gênio<sup>M1</sup> = {vc5} <br />
@@ -261,7 +261,8 @@ Arma<sup>M1</sup> = {(vc11, vc1)} <br />
 
 <br />
 
-4. Funções <br />
+4 . Funções <br />
+
 Idade<sup>M1</sup> = A → A <br />
 Idade<sup>M1</sup> (vc5) = vc2 <br />
 Idade<sup>M1</sup> (vc3) = vc4 <br />
@@ -293,13 +294,13 @@ Inteligente<sup>M1</sup> (...,...) = ... <br />
 
 <br />
 
-1. Universo de Valores Concretos <br />
+1 . Universo de Valores Concretos <br />
 
 A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 <br />
 
-2. Constantes <br />
+2 . Constantes <br />
 
 "Homem de Ferro"<sup>M1</sup> = vc1 <br />
 "29"<sup>M1</sup> = vc2 <br />
@@ -316,7 +317,7 @@ A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 <br />
 
-3. Predicados <br />
+3 . Predicados <br />
 
 Herói<sup>M1</sup> = {vc3} <br />
 Gênio<sup>M1</sup> = {vc5} <br />
@@ -339,7 +340,8 @@ Arma<sup>M1</sup> = {(vc11, vc1)} <br />
 
 <br />
 
-4. Funções <br />
+4 . Funções <br />
+
 Idade<sup>M1</sup> = A → A <br />
 Idade<sup>M1</sup> (vc5) = vc2 <br />
 Idade<sup>M1</sup> (vc3) = vc4 <br />
