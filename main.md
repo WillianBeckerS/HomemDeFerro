@@ -241,7 +241,7 @@ A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 3. Predicados <br />
 
-Herói<sup>M1</sup> = {vc1,vc5} <br />
+Herói<sup>M1</sup> = {vc1, vc5} <br />
 Gênio<sup>M1</sup> = {vc5} <br />
 Vilão<sup>M1</sup> = {vc8} <br />
 Vence<sup>M1</sup> = {vc1} <br />
