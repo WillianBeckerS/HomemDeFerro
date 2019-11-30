@@ -215,24 +215,25 @@ V={x, y, z} <br />
 
 <br />
 
-1 . Universo de Valores Concretos
+1 . Universo de Valores Concretos <br />
 
 A={vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 <br />
 
 2. Constantes <br />
-"Homem de Ferro" <sup> M1 </sup> = {vc1} <br />
-"29" <sup> M1 </sup> = {vc2} <br />
-"Pepper" <sup> M1 </sup> = {vc3} <br />
-"31" <sup> M1 </sup> = {vc4} <br />
-"Tony Stark" <sup> M1 </sup> = {vc5} <br />
-"8000" <sup> M1 </sup> = {vc6} <br />
-"Maquina de Combate"<sup>M1</sup> = {vc7} <br />
-"Monge de Ferro"<sup>M1</sup> = {vc8} <br />
-"Armadura"<sup>M1</sup> = {vc9} <br />
-"Rhodes"<sup>M1</sup> = {vc10} <br />
-"Armas"<sup>M1</sup> = {vc11} <br />
+
+"Homem de Ferro" <sup> M1 </sup> = vc1 <br />
+"29" <sup> M1 </sup> = vc2 <br />
+"Pepper" <sup> M1 </sup> = vc3 <br />
+"31" <sup> M1 </sup> = vc4 <br />
+"Tony Stark" <sup> M1 </sup> = vc5 <br />
+"8000" <sup> M1 </sup> = vc6 <br />
+"Maquina de Combate"<sup>M1</sup> = vc7 <br />
+"Monge de Ferro"<sup>M1</sup> = vc8 <br />
+"Armadura"<sup>M1</sup> = vc9 <br />
+"Rhodes"<sup>M1</sup> = vc10 <br />
+"Armas"<sup>M1</sup> = vc11 <br />
 
 <br />
 
