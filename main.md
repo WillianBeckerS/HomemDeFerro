@@ -178,8 +178,8 @@ Definições de predicados/funções | Preço(X): retorna o preço de X <br /> C
 
 Frase | Há pelo menos alguém que foi derrotado pelo Homem de Ferro e isto em menos de 30 segundos.
 ------------ | -------------
-Fórmula |  ∃x((Derrotado(x) = "Homem de Ferro") Λ (TempoDerrota(x) < "30"))
-Definições de predicados/funções | Derrotado(X): Retorna quem derrotou X. <br /> TempoDerrota(X): Retorna em quantos segundos X foi derrotado.
+Fórmula |  ∃z((Derrotado(z) = "Homem de Ferro") Λ (TempoDerrota(z) < "30"))
+Definições de predicados/funções | Derrotado(Z): Retorna quem derrotou Z. <br /> TempoDerrota(Z): Retorna em quantos segundos Z foi derrotado.
 
 <br />
 
@@ -207,7 +207,7 @@ R2={Inimigos, Namora, Amigos, Conhece, Construiu, Salva, Ajuda, Possui, Batalhou
 C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Rhodes”,  “Armadura”,  “Armas”, "Celta"} <br />
 F1={Idade, Poder, Preço, TempoDerrota, Derrotado} <br />
 F2={Inteligente} <br />
-V={x, y} <br />
+V={x, y, z} <br />
 
 <br />
 
