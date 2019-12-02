@@ -58,9 +58,9 @@ Definições de predicados/funções | Inimigos(X, Y): X e Y são inimigos.
 
 <br />
 
-Frase | Pepper é namorada do Homem de Ferro.
+Frase | Pepper é namorada do Tony Stark.
 ------------ | -------------
-Fórmula | Namora(“Pepper”, “Homem de Ferro”).
+Fórmula | Namora(“Pepper”, “Tony Stark”).
 Definições de predicados/funções | Namora(X, Y): X e Y namoram.
 
 <br />
@@ -153,22 +153,22 @@ Definições de predicados/funções | Salva (X, Y): X salva Y. <br /> Ajuda(X, 
 
 Frase | Todas as armaduras construidas por Tony Stark são muito tecnologicas e possuem armas.
 ------------ | -------------
-Fórmula | Ɐx(Construiu(“Tony Stark”, x) → (Tecnologica(x) Λ Possui(x, "armas")))
-Definições de predicados/funções | Tecnologica(X): X é muito tecnologica <br /> Possui(X, Y): X possui Y.
+Fórmula | Ɐx(Construiu(“Tony Stark”, Armadura(x)) → (Tecnologica(x) Λ Possui(x, "Armas")))
+Definições de predicados/funções | Tecnologica(X): X é muito tecnologica <br /> Possui(X, Y): X possui Y. <br /> Armadura(X): X é uma armadura do homem de ferro.
 
 <br />
 
 Frase | Todas as armas do Homem de Ferro são mais poderosas do que armas comuns.
 ------------ | -------------
-Fórmula | Ɐx((Arma(x, "Homem de Ferro") → (Poder(x) > Poder("Armas Comuns")))
-Definições de predicados/funções | Arma(X, Y): X é arma de Y.
+Fórmula | Ɐx((ArmaDeAlguem(Arma(x), "Homem de Ferro") → (Poder(x) > Poder("Armas Comuns")))
+Definições de predicados/funções | ArmaDeAlguem(X, Y): X é arma de Y. <br /> Arma(X): X é uma arma.
 
 <br />
 
 Frase | Todos as armaduras do Homem de Ferro são mais caras do que qualquer carro popular.
 ------------ | -------------
 Fórmula | ⱯyⱯx((Armadura(x) Λ CarroPopular(y)) → (Preço(x) > Preço(y))
-Definições de predicados/funções | Preço(X): retorna o preço de X <br /> CarroPopular(X): X é um carro popular <br /> Armadura(X): X é uma armadura do homem de ferro
+Definições de predicados/funções | Preço(X): retorna o preço de X <br /> CarroPopular(X): X é um carro popular
 
 <br />
 	
@@ -232,10 +232,11 @@ A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 "8000"<sup>M1</sup> = vc6 <br />
 "Maquina de Combate"<sup>M1</sup> = vc7 <br />
 "Monge de Ferro"<sup>M1</sup> = vc8 <br />
-"Armadura"<sup>M1</sup> = vc9 <br />
+"Armadura"<sup>6M1</sup> = vc9 <br />
 "Rhodes"<sup>M1</sup> = vc10 <br />
 "Armas"<sup>M1</sup> = vc11 <br />
 "Armas Comuns"<sup>M1</sup> = vc12 <br />
+"Celta"<sup>M1</sup> = vc13 <br />
 
 <br />
 
@@ -247,18 +248,18 @@ Vilão<sup>M1</sup> = {vc8} <br />
 Vence<sup>M1</sup> = {vc1} <br />
 Tecnológica<sup>M1</sup> = {vc9} <br />
 Armadura<sup>M1</sup> = {vc9} <br />
-CarroPopular<sup>M1</sup> = {vc12} <br />
+CarroPopular<sup>M1</sup> = {vc13} <br />
 Inimigos<sup>M1</sup> = {(vc1, vc8)} <br />
 Namora<sup>M1</sup> = {(vc3, vc5)} <br />
 Amigos<sup>M1</sup> = {(vc1, vc7)} <br />
-Salva<sup>M1</sup> = {(vc1,vc3)} <br />
-Construiu<sup>M1</sup> = {(vc5, vc9), (vc5, vc11)} <br />
+Salva<sup>M1</sup> = {(vc1, vc3), (vc5, vc3)} <br />
+Construiu<sup>M1</sup> = {(vc5, vc9)} <br />
 Conhece<sup>M1</sup> = {(vc3, vc1), (vc8, vc1)} <br />
-Ajuda<sup>M1</sup>= {(vc1, vc3)} <br />
+Ajuda<sup>M1</sup>= {(vc1, vc3), (vc5, vc3)} <br />
 Possui<sup>M1</sup> = {(vc9, vc11)} <br />
 Batalhou<sup>M1</sup> = {(vc1, vc8)} <br />
-Arma<sup>M1</sup> = {(vc11, vc1)} <br />
-
+ArmaDeAlguem<sup>M1</sup> = {(vc11, vc1)} <br />
+Arma<sup>M1</sup> = {vc9} <br />
 
 <br />
 
@@ -273,18 +274,21 @@ Poder<sup>M1</sup> (vc1) = vc6 <br />
 Poder<sup>M1</sup> (vc8) = vc2 <br />
 Poder<sup>M1</sup> (vc7) = vc4 <br />
 Poder<sup>M1</sup> (vc12) = vc2 <br />
-Poder<sup>M1</sup> (vc11) = vc6 <br />
+Poder<sup>M1</sup> (vc9) = vc6 <br />
 Poder<sup>M1</sup>(...) = vc2 <br />
 Preço<sup>M1</sup> = A → A <br />
 Preço<sup>M1</sup> (vc9) = vc6 <br />
-Preço<sup>M1</sup> (vc) = vc2 <br />
+Preço<sup>M1</sup> (vc13) = vc2 <br />
 Preço<sup>M1</sup> (...) = vc2 <br />
+Derrotado<sup>M1</sup> = A → A <br />
+Derrotado<sup>M1</sup> (vc8) = vc2 <br />
+Derrotado<sup>M1</sup> (...) = vc2 <br />
 TempoDerrota<sup>M1</sup> = A → A <br />
 TempoDerrota<sup>M1</sup> (vc) = vc2 <br />
 TempoDerrota<sup>M1</sup> (...) = vc6 <br />
 Inteligente<sup>M1</sup> = AxA → A <br />
 Inteligente<sup>M1</sup> (vc5, vc10) = vc5 <br />
-Inteligente<sup>M1</sup> (...,...) = ... <br />
+Inteligente<sup>M1</sup> (...,...) = vc5 *** <br />
 
 <br />
 
