@@ -343,31 +343,30 @@ ArmaDeAlguem<sup>M1</sup> = {(vc11, vc1)} <br />
 <br />
 
 4 . Funções <br />
-
-Idade<sup>M1</sup> = A → A <br />
-Idade<sup>M1</sup> (vc5) = vc2 <br />
-Idade<sup>M1</sup> (vc3) = vc4 <br />
-Idade<sup>M1</sup> (...) = vc4 <br />
-Poder<sup>M1</sup> = A → A <br />
-Poder<sup>M1</sup> (vc1) = vc6 <br />
-Poder<sup>M1</sup> (vc8) = vc2 <br />
-Poder<sup>M1</sup> (vc7) = vc4 <br />
-Poder<sup>M1</sup> (vc12) = vc2 <br />
-Poder<sup>M1</sup> (vc9) = vc6 <br />
-Poder<sup>M1</sup>(...) = vc2 <br />
-Preço<sup>M1</sup> = A → A <br />
-Preço<sup>M1</sup> (vc9) = vc6 <br />
-Preço<sup>M1</sup> (vc13) = vc2 <br />
-Preço<sup>M1</sup> (...) = vc2 <br />
-Derrotado<sup>M1</sup> = A → A <br />
-Derrotado<sup>M1</sup> (vc8) = vc1 <br />
-Derrotado<sup>M1</sup> (...) = vc2 <br />
-TempoDerrota<sup>M1</sup> = A → A <br />
-TempoDerrota<sup>M1</sup> (vc8) = vc4 <br />
-TempoDerrota<sup>M1</sup> (...) = vc6 <br />
-Inteligente<sup>M1</sup> = AxA → A <br />
-Inteligente<sup>M1</sup> (vc5, vc10) = vc5 <br />
-Inteligente<sup>M1</sup> (...,...) = vc5 <br />
+Idade<sup>M2</sup> = A → A <br />
+Idade<sup>M2</sup> (vc5) = vc2 <br />
+Idade<sup>M2</sup> (vc3) = vc4 <br />
+Idade<sup>M2</sup> (...) = vc4 <br />
+Poder<sup>M2</sup> = A → A <br />
+Poder<sup>M2</sup> (vc1) = vc6 <br />
+Poder<sup>M2</sup> (vc8) = vc2 <br />
+Poder<sup>M2</sup> (vc7) = vc4 <br />
+Poder<sup>M2</sup> (vc12) = vc2 <br />
+Poder<sup>M2</sup> (vc9) = vc6 <br />
+Poder<sup>M2</sup>(...) = vc2 <br />
+Preço<sup>M2</sup> = A → A <br />
+Preço<sup>M2</sup> (vc9) = vc6 <br />
+Preço<sup>M2</sup> (vc13) = vc2 <br />
+Preço<sup>M2</sup> (...) = vc2 <br />
+Derrotado<sup>M2</sup> = A → A <br />
+Derrotado<sup>M2</sup> (vc8) = vc1 <br />
+Derrotado<sup>M2</sup> (...) = vc2 <br />
+TempoDerrota<sup>M2</sup> = A → A <br />
+TempoDerrota<sup>M2</sup> (vc8) = vc4 <br />
+TempoDerrota<sup>M2</sup> (...) = vc6 <br />
+Inteligente<sup>M2</sup> = AxA → A <br />
+Inteligente<sup>M2</sup> (vc5, vc10) = vc5 <br />
+Inteligente<sup>M2</sup> (...,...) = vc5 <br />
 
 <br />
 
