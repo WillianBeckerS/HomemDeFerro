@@ -282,7 +282,7 @@ Preço<sup>M1</sup> (...) = vc2 <br />
 TempoDerrota<sup>M1</sup> = A → A <br />
 TempoDerrota<sup>M1</sup> (vc) = vc2 <br />
 TempoDerrota<sup>M1</sup> (...) = vc6 <br />
-Inteligente<sup>M1</sup> = AxA → A
+Inteligente<sup>M1</sup> = AxA → A <br />
 Inteligente<sup>M1</sup> (vc5, vc10) = vc5 <br />
 Inteligente<sup>M1</sup> (...,...) = ... <br />
 
@@ -361,7 +361,7 @@ Preço<sup>M2</sup> (...) = vc2 <br />
 TempoDerrota<sup>M2</sup> = A → A <br />
 TempoDerrota<sup>M2</sup> (vc) = vc2 <br />
 TempoDerrota<sup>M2</sup> (...) = vc6 <br />
-Inteligente<sup>M2</sup> = AxA → A
+Inteligente<sup>M2</sup> = AxA → A <br />
 Inteligente<sup>M2</sup> (vc5, vc10) = vc5 <br />
 Inteligente<sup>M2</sup> (...,...) = ... <br />
 
