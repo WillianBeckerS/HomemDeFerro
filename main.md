@@ -304,41 +304,41 @@ A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 
 2 . Constantes <br />
 
-"Homem de Ferro"<sup>M1</sup> = vc1 <br />
-"29"<sup>M1</sup> = vc2 <br />
-"Pepper"<sup>M1</sup> = vc3 <br />
-"31"<sup>M1</sup> = vc4 <br />
-"Tony Stark"<sup>M1</sup> = vc5 <br />
-"8000"<sup>M1</sup> = vc6 <br />
-"Maquina de Combate"<sup>M1</sup> = vc7 <br />
-"Monge de Ferro"<sup>M1</sup> = vc8 <br />
-"Armadura"<sup>6M1</sup> = vc9 <br />
-"Rhodes"<sup>M1</sup> = vc10 <br />
-"Armas"<sup>M1</sup> = vc11 <br />
-"Armas Comuns"<sup>M1</sup> = vc12 <br />
-"Celta"<sup>M1</sup> = vc13 <br />
+"Homem de Ferro"<sup>M2</sup> = vc1 <br />
+"29"<sup>M2</sup> = vc2 <br />
+"Pepper"<sup>M2</sup> = vc3 <br />
+"31"<sup>M2</sup> = vc4 <br />
+"Tony Stark"<sup>M2</sup> = vc5 <br />
+"8000"<sup>M2</sup> = vc6 <br />
+"Maquina de Combate"<sup>M2</sup> = vc7 <br />
+"Monge de Ferro"<sup>M2</sup> = vc8 <br />
+"Armadura"<sup>6M2</sup> = vc9 <br />
+"Rhodes"<sup>M2</sup> = vc10 <br />
+"Armas"<sup>M2</sup> = vc11 <br />
+"Armas Comuns"<sup>M2</sup> = vc12 <br />
+"Celta"<sup>M2</sup> = vc13 <br />
 
 <br />
 
 3 . Predicados <br />
 
-Herói<sup>M1</sup> = {vc5} <br />
-Gênio<sup>M1</sup> = {} <br />
-Vilão<sup>M1</sup> = {vc5} <br />
-Vence<sup>M1</sup> = {vc1} <br />
-Tecnológica<sup>M1</sup> = {vc9} <br />
-Armadura<sup>M1</sup> = {vc9} <br />
-CarroPopular<sup>M1</sup> = {vc13} <br />
-Inimigos<sup>M1</sup> = {(vc1, vc8)} <br />
-Namora<sup>M1</sup> = {(vc3, vc5)} <br />
-Amigos<sup>M1</sup> = {(vc1, vc7)} <br />
-Salva<sup>M1</sup> = {(vc1, vc3), (vc5, vc3)} <br />
-Construiu<sup>M1</sup> = {(vc5, vc9)} <br />
-Conhece<sup>M1</sup> = {(vc3, vc1), (vc8, vc1)} <br />
-Ajuda<sup>M1</sup>= {(vc1, vc3), (vc5, vc3)} <br />
-Possui<sup>M1</sup> = {(vc9, vc11)} <br />
-Batalhou<sup>M1</sup> = {(vc1, vc8)} <br />
-ArmaDeAlguem<sup>M1</sup> = {(vc11, vc1)} <br />
+Herói<sup>M2</sup> = {vc5} <br />
+Gênio<sup>M2</sup> = {} <br />
+Vilão<sup>M2</sup> = {vc5} <br />
+Vence<sup>M2</sup> = {vc1} <br />
+Tecnológica<sup>M2</sup> = {vc9} <br />
+Armadura<sup>M2</sup> = {vc9} <br />
+CarroPopular<sup>M2</sup> = {vc13} <br />
+Inimigos<sup>M2</sup> = {(vc1, vc8)} <br />
+Namora<sup>M2</sup> = {(vc3, vc5)} <br />
+Amigos<sup>M2</sup> = {(vc1, vc7)} <br />
+Salva<sup>M2</sup> = {(vc1, vc3), (vc5, vc3)} <br />
+Construiu<sup>M2</sup> = {(vc5, vc9)} <br />
+Conhece<sup>M2</sup> = {(vc3, vc1), (vc8, vc1)} <br />
+Ajuda<sup>M2</sup>= {(vc1, vc3), (vc5, vc3)} <br />
+Possui<sup>M2</sup> = {(vc9, vc11)} <br />
+Batalhou<sup>M2</sup> = {(vc1, vc8)} <br />
+ArmaDeAlguem<sup>M2</sup> = {(vc11, vc1)} <br />
 
 <br />
 
