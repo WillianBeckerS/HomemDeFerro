@@ -165,7 +165,7 @@ Definições de predicados/funções | ArmaDeAlguem(X, Y): X é arma de Y.
 
 <br />
 
-Frase | Todos as armaduras do Homem de Ferro são mais caras do que qualquer carro popular.
+Frase | Todas as armaduras do Homem de Ferro são mais caras do que qualquer carro popular.
 ------------ | -------------
 Fórmula | ⱯyⱯx((Armadura(x) Λ CarroPopular(y)) → (Preço(x) > Preço(y))
 Definições de predicados/funções | Preço(X): retorna o preço de X <br /> CarroPopular(X): X é um carro popular
