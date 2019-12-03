@@ -314,7 +314,7 @@ A = {vc1, vc2, vc3, vc4, vc5, vc6, vc7, vc8, vc9, vc10, vc11, vc12, vc13}
 "Monge de Ferro"<sup>M2</sup> = vc8 <br />
 "Armadura"<sup>6M2</sup> = vc9 <br />
 "Rhodes"<sup>M2</sup> = vc10 <br />
-"Armas"<sup>M2</sup> = vc11 <br />
+"Explosivos do Homem de Ferro"<sup>M2</sup> = vc11 <br />
 "Armas Comuns"<sup>M2</sup> = vc12 <br />
 "Celta"<sup>M2</sup> = vc13 <br />
 
