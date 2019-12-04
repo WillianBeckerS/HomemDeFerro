@@ -204,7 +204,7 @@ Definições de predicados/funções | Batalhou(X, Y): X batalhou com Y.
 ∑=[R1, R2, R3, C, F1, F2, V] <br />
 R1={Herói, Gênio, Vilão, Vence, Tecnológica, CarroPopular, Armadura} <br />
 R2={Inimigos, Namora, Amigos, Conhece, Construiu, Salva, Ajuda, Possui, Batalhou, ArmaDeAlguem} <br />
-C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Rhodes”,  “Armadura”,  “Explosivos do Homem de Ferro”, "Celta"} <br />
+C={“Homem de Ferro”,  “Pepper”,  “Tony Stark”,  “Maquina de Combate”,  “Monge de Ferro”,  “Rhodes”,  “Armadura”} <br />
 F1={Idade, Poder, Preço, TempoDerrota, Derrotado} <br />
 F2={Inteligente} <br />
 V={x, y, z} <br />
